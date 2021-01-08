@@ -26,6 +26,6 @@ jobs:
         env:
           MERGE_LABELS: "automerge, !work in progress, !wip"
           MERGE_METHOD: "squash"
-          MERGE_COMMIT_MESSAGE: "pull-request-description"
+          MERGE_COMMIT_MESSAGE: "pull-request-title-and-description"
           MERGE_COMMIT_MESSAGE_REGEX: (.*)^---
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
