@@ -1,3 +1,20 @@
+
+---
+
+<!--
+  **!! IMPORTANT !!**
+  Above the '---' is what will be the commit body for the squash merge. It should contain the entire commit with body
+  and footer. The title of the PR will be used as the title for the squash merge commit message.
+  
+  ```
+  <type>(<scope>) <subject>
+  <BLANK LINE>
+  <body>
+  <BLANK LINE>
+  <footer>
+  ```
+-->
+
 ## Summary
 
 <!-- 
@@ -28,10 +45,3 @@ Is this PR ready to be reviewed?
 ** Remove if not needed **
 This section can be helpful for adding screenshots or gifs of new UI or cli output.
 -->
-
-<!--
-  **!! IMPORTANT !!**
-  Below the '---' is what will be squashed merged. It should contain the entire commit with title, body, and footer.
--->
-
----
