@@ -3,7 +3,8 @@
 
 <!--
   **!! IMPORTANT !!**
-  Above the '---' is what will be squashed merged. It should contain the entire commit with title, body, and footer.
+  Above the '---' is what will be the commit body for the squash merge. It should contain the entire commit with body
+  and footer. The title of the PR will be used as the title for the squash merge commit message.
   
   ```
   <type>(<scope>) <subject>
