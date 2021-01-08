@@ -28,4 +28,5 @@ jobs:
           MERGE_METHOD: "squash"
           MERGE_COMMIT_MESSAGE: "pull-request-title-and-description"
           MERGE_COMMIT_MESSAGE_REGEX: (.*)^---
+          MERGE_DELETE_BRANCH: true
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
